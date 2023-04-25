@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/Notes_project/app/src/main/res/drawable-v24/text_cursor_color.xml" value="0.1985" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Notes_project/app/src/main/res/drawable/bottom_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Notes_project/app/src/main/res/drawable/handle.xml" value="0.1985" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Notes_project/app/src/main/res/drawable/ic_back2.xml" value="0.1985" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Notes_project/app/src/main/res/drawable/ic_edit.xml" value="0.1985" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Notes_project/app/src/main/res/drawable/ic_launcher_background.xml" value="0.121" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Notes_project/app/src/main/res/drawable/ic_tick1.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Notes_project/app/src/main/res/drawable/ic_tick2.xml" value="0.1985" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Notes_project/app/src/main/res/drawable/radio.xml" value="0.1985" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Notes_project/app/src/main/res/drawable/selectedblock.xml" value="0.1985" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Notes_project/app/src/main/res/drawable/unselectedblock.xml" value="0.1985" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Notes_project/app/src/main/res/layout/activity_body.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Notes_project/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Notes_project/app/src/main/res/layout/bottom_sheet_layout.xml" value="0.4" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Notes_project/app/src/main/res/layout/drop_down_menu_item.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Notes_project/app/src/main/res/layout/fragment_blank2.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Notes_project/app/src/main/res/layout/fragment_btm_dialog.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Notes_project/app/src/main/res/layout/fragment_btm_dialog2.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Notes_project/app/src/main/res/layout/item.xml" value="0.6" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

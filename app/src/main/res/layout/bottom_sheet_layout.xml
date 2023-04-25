@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bottom_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="220dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:background="#989898"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/colors"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="12dp"
+        android:background="#989898"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/time"></LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/colors"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup
+        android:id="@+id/style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="12dp"
+        app:flexWrap="wrap"
+        app:justifyContent="flex_start"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:toggle_selectableAmount="1"> <!-- this attribute is from the underlying FlexboxLayout -->
+
+        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginVertical="4dp"
+            android:elevation="5dp"
+            app:layout_order="0"
+            app:toggle_selectedBackgroundColor="#3F51B5"
+            app:toggle_backgroundColor="@color/radio_btn_unselected_color"
+            app:toggle_text="@string/bold" />
+
+        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+            android:id="@+id/btn2"
+            app:layout_order="1"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginVertical="4dp"
+            app:toggle_selectedBackgroundColor="#3F51B5"
+            android:elevation="5dp"
+            app:toggle_backgroundColor="@color/radio_btn_unselected_color"
+            app:toggle_text="@string/italic" />
+
+        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+            android:id="@+id/btn3"
+            app:layout_order="2"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginVertical="4dp"
+            app:toggle_selectedBackgroundColor="#3F51B5"
+            android:elevation="5dp"
+            app:toggle_backgroundColor="@color/radio_btn_unselected_color"
+            app:toggle_text="@string/thin" />
+
+        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            app:layout_order="3"
+            android:layout_marginVertical="4dp"
+            app:toggle_selectedBackgroundColor="#3F51B5"
+            android:elevation="5dp"
+            app:toggle_backgroundColor="@color/radio_btn_unselected_color"
+            app:toggle_text="@string/normal" />
+
+        <nl.bryanderidder.themedtogglebuttongroup.ThemedButton
+            android:id="@+id/btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            app:layout_order="4"
+            android:layout_marginVertical="4dp"
+            android:elevation="5dp"
+            app:toggle_selectedBackgroundColor="#3F51B5"
+            app:toggle_backgroundColor="@color/radio_btn_unselected_color"
+            app:toggle_text="@string/extra_light" />
+
+    </nl.bryanderidder.themedtogglebuttongroup.ThemedToggleButtonGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
